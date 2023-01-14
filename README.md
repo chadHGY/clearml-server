@@ -99,6 +99,10 @@ Launch The **ClearML Server** in any of the following formats:
     - [Linux](https://clear.ml/docs/latest/docs/deploying_clearml/clearml_server_linux_mac)
     - [macOS](https://clear.ml/docs/latest/docs/deploying_clearml/clearml_server_linux_mac)
     - [Windows 10](https://clear.ml/docs/latest/docs/deploying_clearml/clearml_server_win)
+    ```bash
+    # easy deployment using bash
+    ./deploy.sh
+    ```
 - Kubernetes    
     - [Kubernetes Helm](https://clear.ml/docs/latest/docs/deploying_clearml/clearml_server_kubernetes_helm)
     - Manual [Kubernetes installation](https://clear.ml/docs/latest/docs/deploying_clearml/clearml_server_kubernetes)

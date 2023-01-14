@@ -67,7 +67,7 @@ services:
     restart: unless-stopped
     volumes:
       - ${CLEARML_PREFIX}/data/elastic_7:/usr/share/elasticsearch/data
-      - /usr/share/elasticsearch/logs
+      - ${CLEARML_PREFIX}/logs/elastic_7:/usr/share/elasticsearch/logs
 
   fileserver:
     networks:
