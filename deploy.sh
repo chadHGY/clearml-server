@@ -1,6 +1,6 @@
 # environment variables
 [ ! -f .env ] || export $(grep -v '^#' .env | xargs)
-CLEARML_HOST_IP=$(hostname -I | cut -d' ' -f1)
+export CLEARML_HOST_IP=$(hostname -I | cut -d' ' -f1)
 
 # make directory
 sudo mkdir -p ${CLEARML_PREFIX}/data/fileserver
